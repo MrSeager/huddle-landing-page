@@ -15,7 +15,7 @@ const Section2Item: FC<Section2ItemProps> = ( {ImgSec, head, par, order1, order2
     return (
         <Container fluid className='shadow rounded-4 p-5 p-lg-4 text-center text-lg-start'>
             <Row>
-                <Col xs={{ span: 12, order: 2 }} lg={{ span: 8, order: order1 }} className='px-5 d-flex flex-column justify-content-center'>
+                <Col xs={{ span: 12, order: 2 }} lg={{ span: 8, order: order1 }} className='px-2 px-lg-5 d-flex flex-column justify-content-center'>
                     <h2 className='cs-font-poppins cs-tc mb-4'>{head}</h2>
                     <p className='cs-tc'>{par}</p>
                 </Col>

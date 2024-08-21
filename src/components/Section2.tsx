@@ -20,7 +20,7 @@ type Section2Props = {
 
 const Section2: FC<Section2Props> = ( {ImgSec1, head1, par1, ImgSec2, head2, par2, ImgSec3, head3, par3} ) => {
     return (
-        <Container fluid className='p-5 d-flex flex-column gap-5'>
+        <Container fluid className='p-3 p-sm-5 d-flex flex-column gap-5'>
             <Section2Item 
                 ImgSec={ImgSec1}
                 head={head1}
