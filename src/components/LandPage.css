@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.cs-w {
+    width: 55% !important;
+}
+
+/*Buttons*/
+.cs-btn-nav {
+    transition: .3s !important;
+}
+
+.cs-btn-nav:hover {
+    color: hsl(208, 11%, 55%) !important;
+}
+
+.cs-btn {
+    transition: .3s !important;
+}
+
+.cs-btn:hover {
+    opacity: .75 !important;
+}
+
+.cs-link {
+    text-underline-offset: 3px !important;
+}
+
+.cs-link:hover {
+    text-decoration: underline !important;
+}
+
+.cs-social {
+    aspect-ratio: 1/1;
+    transition: .3s !important;
+}
+
+.cs-social:hover {
+    border-color: hsl(322, 100%, 66%) !important;
+    color: hsl(322, 100%, 66%) !important;
+}
+
+/*Text*/
+.cs-tc {
+    color: hsl(192, 100%, 9%) !important;
+}
+
+.cs-fw-700 {
+    font-weight: 700 !important;
+}
+
+.cs-font-poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/*Background*/
+.cs-bg-image {
+    background: url('../images/bg-hero-desktop.svg') no-repeat top / 100%;
+    background-color: hsl(193, 100%, 96%) !important;
+}
+
+.cs-bg-pink {
+    background-color: hsl(322, 100%, 66%) !important;
+}
+
+.cs-bg-grad {
+    background: linear-gradient(0deg, rgba(0,37,46,1) 0%, rgba(0,37,46,1) 50%, rgba(2,3,3,0) 50%, rgba(20,21,25,0) 100%) !important;
+}
+
+.cs-bg-footer {
+    background-color: hsl(192, 100%, 9%) !important;
+}
+
+/*Image*/
+.cs-img {
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 991px) {
+    .cs-w {
+        width: 90% !important;
+    }
+}
